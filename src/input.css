@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/*cambio los estilos cuando el tamaño sea maximo de 850pixeles de ancho*/
+@media (max-width: 850px){ /*aplico estilos de grilla a la clase admision para ajusatarlo a la pantalla*/
+.admision { grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 2rem; }
+.imagenes{ flex-wrap: wrap; justify-content: center; padding: 1rem 0; width: 100%;
+}
+/*ajusto el ancho del footer*/
+.tam-footer{ width: 90%;
+}
+.completo{ min-width: 100%;
+}
+}
+
+
